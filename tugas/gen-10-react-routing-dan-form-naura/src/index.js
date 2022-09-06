@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
+import Others from './pages/Others';
 import Menu from './pages/Menu';
 import Pakaian from './pages/Pakaian';
 import Makanan from './pages/Makanan';
@@ -26,6 +27,8 @@ root.render(
         <Route path="/" element={<App />}>
 
           <Route index element={<Home />} />
+          <Route path="/:others" element={<Others />} />
+
           <Route path="menu" element={<Menu />} >
             <Route path="form" element={<FormHandling />} />
             <Route path="pakaian" element={<Pakaian />} />

@@ -3,7 +3,7 @@ import { Link, Routes, Route, Outlet } from 'react-router-dom'
 
 export default function Menu() {
     return <>
-        <p>Ini Menu</p>
+        <h3>Ini Menu</h3>
 
         <Link to="/">
             Kembali ke Home
