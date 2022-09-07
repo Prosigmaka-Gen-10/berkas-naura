@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Buku 1",
+      "author": "Joni",
+      "release": 2000
+    },
+    {
+      "id": 2,
+      "title": "Buku 2",
+      "author": "Toni",
+      "release": 2004
+    },
+    {
+      "id": 3,
+      "title": "Buku 3",
+      "author": "Doni",
+      "release": 2020
+    },
+    {
+      "title": "Buku 4",
+      "author": "Roni",
+      "release": "2022",
+      "id": 4
+    }
+  ]
+}
